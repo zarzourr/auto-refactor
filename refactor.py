@@ -2,7 +2,10 @@
 import ast
 import os
 
+
+
 log = []
+
 
 def has_docstring(func_node):
     return ast.get_docstring(func_node) is not None
